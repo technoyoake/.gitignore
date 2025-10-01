@@ -1,0 +1,28 @@
+# --- Docker build artifacts ---
+*.tar
+*.img
+*.iso
+
+# --- Docker Compose override files (локальные настройки) ---
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# --- Docker volumes / data ---
+data/
+db_data/
+redis_data/
+postgres_data/
+
+# --- Docker tmp ---
+tmp/
+*.pid
+*.seed
+
+# --- Docker logs ---
+docker-logs/
+*.log
+
+# --- Local env files ---
+.env
+.env.local
+.env.*.local
