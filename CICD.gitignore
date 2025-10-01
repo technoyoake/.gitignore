@@ -1,0 +1,44 @@
+# --- CI/CD logs and temporary files ---
+*.log
+*.out
+*.err
+tmp/
+temp/
+.cache/
+build/
+dist/
+
+# --- Docker / containerization ---
+docker-logs/
+*.pid
+*.seed
+*.tar
+*.img
+
+# --- Kubernetes ---
+.kube/
+*.kubeconfig
+*.kube/
+*.kustomize/
+*.helm/
+*.helmignore
+
+# --- Terraform ---
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+*.tfplan
+
+# --- Ansible / Chef / Puppet ---
+*.retry
+*.cache
+*.vault
+*.retry
+
+# --- General deployment artifacts ---
+*.zip
+*.tar.gz
+*.tgz
+*.bak
+*.backup
