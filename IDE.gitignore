@@ -1,0 +1,29 @@
+# --- VS Code ---
+.vscode/
+.history/
+
+# --- JetBrains IDEs (PyCharm, IntelliJ IDEA, WebStorm, PhpStorm) ---
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --- Sublime Text ---
+*.sublime-workspace
+*.sublime-project
+
+# --- Eclipse ---
+.project
+.classpath
+.settings/
+
+# --- NetBeans ---
+nbproject/private/
+
+# --- Vim / Emacs ---
+*~
+*.swp
+*.swo
+*.swn
+*#
+\#*\#
